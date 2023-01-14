@@ -30,9 +30,13 @@ SELECT * FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet'
 
 ## Getting started: Create a connection 🔗
 
-1. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc)
+1. Install DuckDB
 
-2. In DataGrip/DataSpell, create a new Driver configuration using the downloaded jar file.
+```pip install duckdb==0.6.1````
+
+2. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc)
+
+3. In DataGrip/DataSpell, create a new Driver configuration using the downloaded jar file.
 First, click 'Add Database' on the right hand side of the IDE. Then click the `+` icon, followed by `Data Source`, followed by DuckDb. You will then see the below screen. Click DuckDB, as show in the green box.
 
 
@@ -48,7 +52,7 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 </p>
 
 
-3. Right click the DuckDB connection -> Navigation -> Jump to Query Console. You can now query using DuckDB. But first, we need some data.
+4. Right click the DuckDB connection -> Navigation -> Jump to Query Console. You can now query using DuckDB. But first, we need some data.
 
 
 <p align="center">
