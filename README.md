@@ -90,12 +90,14 @@ SELECT * FROM INFORMATION_SCHEMA.tables
 
 ## Getting started: Some simple analytics 🤖
 - 1. Counting
+
 Count the number of rows.
 ```
 SELECT COUNT(*) FROM ciaran_data.test_table
 ```
 
 -  2. Window functions
+
 Find the employees in each department with the highest salary.
 ```
 WITH ranking AS
