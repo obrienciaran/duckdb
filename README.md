@@ -59,7 +59,7 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31419980/212500694-2e65947a-b036-4585-b090-fe91056d78dd.png"  alt="Example of how to begin querying using DuckDB." width="1000" height="450">
+<img src="https://user-images.githubusercontent.com/31419980/212501724-830fe676-e353-4187-b64e-5a8f7a768bcb.png"  alt="Example of how to begin querying using DuckDB." width="1000" height="450">
 </p>
 
 ---
