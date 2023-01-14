@@ -3,7 +3,7 @@
 This is my personal repository for keeping code and instructions related to DuckDB.
 
 ---
-# What is the purpose of this repository?
+# What is the purpose of this repository? 🤔
 
 Having worked in consultancy for a long time, particularly on government contracts, I am very aware of how prevalent Microsoft Excel is being used to handle .csv files. Being a data scientist, I felt my brain slowly turning into mush working with Excel on a daily basis. After using DuckDB, I immediately saw the benefit for analysts in the same position as I was.
 
@@ -28,7 +28,7 @@ SELECT * FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet'
 
 ---
 
-### Getting started: Create a connection
+### Getting started: Create a connection 🔗
 
 1. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc)
 
@@ -57,7 +57,7 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 ---
 
-### Getting started: Adding data
+### Getting started: Adding data 💾
 
 
 - Create a table in the main schema
@@ -80,7 +80,7 @@ select * from INFORMATION_SCHEMA.tables
 
 ---
 
-### Getting started: Some simple analytics
+### Getting started: Some simple analytics 🤖
 - 1. Counting
 ```
 select count(*) from ciaran_data.test_table
@@ -96,7 +96,7 @@ FROM ranking
 WHERE rnk = 1
 ```
 
-#### References 📚
+### References 📚
 
 
 - Thank you to [Daniel Palma](https://medium.com/@danthelion/analyzing-bigger-files-locally-in-seconds-with-duckdb-and-datagrip-8753486a3da9) for the information on getting DuckDB connected to a JetBrains IDE, and the shell script for generating some initial dummy data.
