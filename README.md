@@ -81,6 +81,7 @@ CREATE TABLE ciaran_data.test_table AS SELECT * FROM read_csv_auto('/Users/ciara
 ```
 
 - Check schema info
+Check information on each schema in the database.
 ```
 SELECT * FROM INFORMATION_SCHEMA.tables
 ```
@@ -89,14 +90,16 @@ SELECT * FROM INFORMATION_SCHEMA.tables
 
 ## Getting started: Some simple analytics 🤖
 - 1. Counting
+Count the number of rows.
 ```
 SELECT COUNT(*) FROM ciaran_data.test_table
 ```
 
 -  2. Window functions
+Find the employees in each department with the highest salary.
 ```
 WITH ranking AS
-         (SELECT *, RANK() OVER (PARTITION BY employee, department ORDER BY salary Desc) AS rnk
+         (SELECT *, RANK() OVER (PARTITION BY employee, department ORDER BY salary DESC) AS rnk
           FROM ciaran_data.test_table)
 SELECT employee, department, salary
 FROM ranking
