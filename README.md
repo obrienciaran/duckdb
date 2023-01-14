@@ -1,5 +1,30 @@
 # Duckdb 🦆
-This is my personal repository for keeping code related to DuckDB
+This is my personal repository for keeping code and instructions related to DuckDB.
+---
+# What is the purpose of this repository?
+
+Having worked in consultancy for a long time, particularly on government contracts, I am very aware of how prevalent Microsoft Excel is being used to handle .csv files. Being a data scientist, I felt my brain slowly turning into mush working with Excel on a daily basis. After using DuckDB, I immediately saw the benefit for analysts in the same position as I was.
+
+DuckDB is a severless OLAP database management system and has been described as SQLite for analytics - and it can read .csv files directly. What does this mean? It means anybody can run their own SQL engine on their own computer for performing analytics. This means:
+
+- Goodbye Excel
+- No need for managing a server
+- No dependencies
+- Faster than Pandas 
+- Larger than memory processing
+- Lightning fast analytics
+- Run analytics anywhere: on your laptop, in the browser, on a cloud VM, in a cloud function, as part of a Python notebook, R script, Javascript app. all of the following are legitimate queries with DuckDB; a parquet file in a S3 bucket, a local parquet file, a Pandas dataframe in a notebook, or a browser query:
+
+```
+SELECT AVG(trip_distance) FROM 's3://yellow_tripdata_20[12]*.parquet'
+SELECT * FROM '~/local/files/file.parquet'
+SELECT * FROM dataframe
+SELECT * FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet'
+
+```
+
+
+---
 
 ### Getting started: Create a connection
 
