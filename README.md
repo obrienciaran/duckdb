@@ -1,5 +1,5 @@
 # DuckDB 🦆
-![duck](https://user-images.githubusercontent.com/31419980/212501891-1fecd4fe-c4fc-4e17-8566-f57047d12d84.png)
+<img width="997" alt="duckdb" src="https://user-images.githubusercontent.com/31419980/212501900-4f3208b4-88af-4865-90fa-198ca10c8772.png">
 
 
 This is my personal repository for keeping code and instructions related to DuckDB.
