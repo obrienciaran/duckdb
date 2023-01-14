@@ -69,20 +69,20 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 - Create a table in the main schema
 ```
-CREATE TABLE test_table AS select * from read_csv_auto('/Users/ciaranobrien/Desktop/Work/Quack/data.csv')
+CREATE TABLE test_table AS select * FROM read_csv_auto('/Users/ciaranobrien/Desktop/Work/Quack/data.csv')
 SHOW TABLES;
-select * from test_table
+SELECT * FROM test_table
 ```
 
 - Create a new schema and add the data.csv data to it as a table
 ```
 CREATE SCHEMA ciaran_data;
-CREATE TABLE ciaran_data.test_table AS select * from read_csv_auto('/Users/ciaranobrien/Desktop/Work/Quack/data.csv')
+CREATE TABLE ciaran_data.test_table AS SELECT * FROM read_csv_auto('/Users/ciaranobrien/Desktop/Work/Quack/data.csv')
 ```
 
 - Check schema info
 ```
-select * from INFORMATION_SCHEMA.tables
+SELECT * FROM INFORMATION_SCHEMA.tables
 ```
 
 ---
@@ -90,7 +90,7 @@ select * from INFORMATION_SCHEMA.tables
 ## Getting started: Some simple analytics 🤖
 - 1. Counting
 ```
-select count(*) from ciaran_data.test_table
+SELECT COUNT(*) FROM ciaran_data.test_table
 ```
 
 -  2. Window functions
