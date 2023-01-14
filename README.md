@@ -32,7 +32,9 @@ SELECT * FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet'
 
 1. Install DuckDB
 
-```pip install duckdb==0.6.1````
+```
+pip install duckdb==0.6.1
+````
 
 2. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc)
 
