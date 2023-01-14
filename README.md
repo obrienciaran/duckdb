@@ -9,13 +9,13 @@ Having worked in consultancy for a long time, particularly on government contrac
 
 DuckDB is a severless OLAP database management system and has been described as SQLite for analytics - and it can read .csv files directly. What does this mean? It means anybody can run their own SQL engine on their own computer for performing analytics. This means:
 
-- Goodbye Excel
-- No need for managing a server
-- No dependencies
-- Faster than Pandas/Python
-- Larger than memory processing
-- Lightning fast analytics
-- Common SQL language
+- Goodbye Excel;
+- No need for managing a server;
+- No dependencies;
+- Faster than Pandas/Python;
+- Larger than memory processing;
+- Lightning fast analytics;
+- Common SQL language; and,
 - Run analytics anywhere: on your laptop, in the browser, on a cloud VM, in a cloud function, as part of a Python notebook, R script, Javascript app. all of the following are legitimate queries with DuckDB; a parquet file in a S3 bucket, a local parquet file, a Pandas dataframe in a notebook, or a browser query:
 
 ```
