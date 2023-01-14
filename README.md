@@ -28,7 +28,7 @@ SELECT * FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet'
 
 ---
 
-### Getting started: Create a connection 🔗
+## Getting started: Create a connection 🔗
 
 1. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc)
 
@@ -57,7 +57,7 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 ---
 
-### Getting started: Adding data 💾
+## Getting started: Adding data 💾
 
 
 - Create a table in the main schema
@@ -80,7 +80,7 @@ select * from INFORMATION_SCHEMA.tables
 
 ---
 
-### Getting started: Some simple analytics 🤖
+## Getting started: Some simple analytics 🤖
 - 1. Counting
 ```
 select count(*) from ciaran_data.test_table
@@ -95,6 +95,8 @@ SELECT employee, department, salary
 FROM ranking
 WHERE rnk = 1
 ```
+
+---
 
 ### References 📚
 
