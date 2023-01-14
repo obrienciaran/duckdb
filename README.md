@@ -66,6 +66,7 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 ## Getting started: Adding data 💾
 
+You can run the shell script found [here](https://github.com/obrienciaran/duckdb/tree/main/creating_data) to generate the same dummy data used for the remainder of these steps. Open a terminal and use `cd` to navigate to your folder of choice, then run the Bash script.
 
 - Create a table in the main schema
 ```
