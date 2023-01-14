@@ -36,7 +36,7 @@ SELECT * FROM 'https://shell.duckdb.org/data/tpch/0_01/parquet/lineitem.parquet'
 pip install duckdb==0.6.1
 ````
 
-2. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc)
+2. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc).
 
 3. In DataGrip/DataSpell, create a new Driver configuration using the downloaded jar file.
 First, click 'Add Database' on the right hand side of the IDE. Then click the `+` icon, followed by `Data Source`, followed by DuckDb. You will then see the below screen. Click DuckDB, as show in the green box.
