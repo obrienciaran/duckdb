@@ -1,11 +1,8 @@
 # DuckDB 🦆
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/31419980/212501922-d7f31ca7-2514-410c-bd4c-386086bbf75e.png  alt="DuckDB logo." width="1000" height="150">
+<img src=https://user-images.githubusercontent.com/31419980/212501922-d7f31ca7-2514-410c-bd4c-386086bbf75e.png  alt="DuckDB logo." width="1000" height="175">
 </p>
-
-
-
 
 
 This is my personal repository for keeping code and instructions related to DuckDB.
