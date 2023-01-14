@@ -16,7 +16,10 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 3. Right click the DuckDB connection -> Navigation -> Jump to Query Console. You can now query using DuckDB. But first, we need some data.
 
-<img width="1501" alt="Screenshot 2023-01-14 at 23 51 04" src="https://user-images.githubusercontent.com/31419980/212500540-8264a6d6-73d2-4c90-879f-2cb48e6acb35.png">
+
+<p align="center">
+<img src=src="https://user-images.githubusercontent.com/31419980/212500540-8264a6d6-73d2-4c90-879f-2cb48e6acb35.png"  alt="Example of how to attach a directory in DataSpell." width="632" height="500">
+</p>
 
 ---
 ### Getting started: Adding data
