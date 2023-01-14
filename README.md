@@ -12,9 +12,10 @@ DuckDB is a severless OLAP database management system and has been described as 
 - Goodbye Excel
 - No need for managing a server
 - No dependencies
-- Faster than Pandas 
+- Faster than Pandas/Python
 - Larger than memory processing
 - Lightning fast analytics
+- Common SQL language
 - Run analytics anywhere: on your laptop, in the browser, on a cloud VM, in a cloud function, as part of a Python notebook, R script, Javascript app. all of the following are legitimate queries with DuckDB; a parquet file in a S3 bucket, a local parquet file, a Pandas dataframe in a notebook, or a browser query:
 
 ```
