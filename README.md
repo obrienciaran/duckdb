@@ -76,7 +76,9 @@ CREATE TABLE ciaran_data.test_table AS select * from read_csv_auto('/Users/ciara
 select * from INFORMATION_SCHEMA.tables
 ```
 
-#### Some simple analytics
+---
+
+### Getting started: Some simple analytics
 - 1. Counting
 ```
 select count(*) from ciaran_data.test_table
