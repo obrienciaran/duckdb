@@ -1,5 +1,7 @@
 # Duckdb 🦆
+
 This is my personal repository for keeping code and instructions related to DuckDB.
+
 ---
 # What is the purpose of this repository?
 
