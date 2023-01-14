@@ -1,4 +1,4 @@
-# Duckdb 🦆
+# DuckDB and me 🦆
 
 This is my personal repository for keeping code and instructions related to DuckDB.
 
