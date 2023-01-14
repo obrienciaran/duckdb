@@ -25,7 +25,7 @@ You will now see the page in the next screenshot. Here, you can point to the .ja
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31419980/212500540-8264a6d6-73d2-4c90-879f-2cb48e6acb35.png"  alt="Example of how to begin querying using DuckDB." width="1000" height="500">
+<img src="https://user-images.githubusercontent.com/31419980/212500694-2e65947a-b036-4585-b090-fe91056d78dd.png"  alt="Example of how to begin querying using DuckDB." width="1000" height="500">
 </p>
 
 ---
