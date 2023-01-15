@@ -5,7 +5,7 @@ PyPolars is a fast multi-threaded DataFrame library/in-memory query engine. It i
 a faster execution time than Pandas. The API is very similar to that of Pandas so using Polars should not be a problem for analysts. You can check out 
 Pandas vs Polars in some performance testing [here](https://kevinheavey.github.io/modern-polars/performance.html). Due to its speed, Polars is an obvious pairing for DuckDB. 
 
-*Notes from the developers of Polars are below.*
+Notes from the developers of Polars are below.
 ---
 ## Performance 🚀🚀
 
