@@ -47,7 +47,7 @@ pip install duckdb==0.6.1
 
 2. Download the DuckDB driver from [Maven](https://search.maven.org/artifact/org.duckdb/duckdb_jdbc).
 
-3. In DataGrip/DataSpell, create a new Driver configuration using the downloaded jar file.
+3. In DataGrip/DataSpell, create a new Driver configuration using the downloaded `.jar` file.
 First, click 'Add Database' on the right hand side of the IDE. Then click the `+` icon, followed by `Data Source`, followed by DuckDB. You will then see the below screen. Click DuckDB, as shown in the green box.
 
 
@@ -55,7 +55,7 @@ First, click 'Add Database' on the right hand side of the IDE. Then click the `+
 <img src="https://user-images.githubusercontent.com/31419980/212500476-845c207e-a9d3-4778-a268-0a9513e50085.png"  alt="Example of how to add DuckDB as a datasource" width="632" height="500">
 </p>
 
-You will now see the page in the next screenshot. Here, you can point to the .jar file you downloaded. Replicate the text as per the screenshot, and test the connection. You should be ready to go now.
+You will now see the page in the next screenshot. Here, you can point to the `.jar` file you downloaded. Replicate the text as per the screenshot, and test the connection. You should be ready to go now.
 
 
 <p align="center">
