@@ -11,7 +11,9 @@ This is my personal repository for keeping code and instructions related to Duck
 ---
 # What is the purpose of this repository? 🤔
 
-Having worked in consultancy for a long time, particularly on government contracts, I am very aware of how prevalent Microsoft Excel is being used to handle .csv files. Being a data scientist, I felt my brain slowly turning into mush working with Excel on a daily basis. After using DuckDB, I immediately saw the benefit for analysts in the same position as I was.
+Tl;dr - creating a local SQL database for analytics.
+
+Long story - Having worked in consultancy for a long time, particularly on government contracts, I am very aware of how prevalent Microsoft Excel is being used to handle .csv files. Being a data scientist, I felt my brain slowly turning into mush working with Excel on a daily basis. After using DuckDB, I immediately saw the benefit for analysts in the same position as I was, who wanted to create a local SQL solution.
 
 DuckDB is a severless OLAP database management system and has been described as SQLite for analytics - and it can read .csv files directly. What does this mean? It means anybody can run their own SQL engine on their own computer for performing analytics. This means:
 
