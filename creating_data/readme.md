@@ -11,7 +11,7 @@ Reference [here](https://stackoverflow.com/questions/29253591/generate-large-csv
 ### csv to parquet
 It is also possible to convert the generated data to parquet format using [this](https://github.com/domoritz/csv2parquet) open source tool created in Rust. 
 
-To do so, follow these steps:
+To do so, follow the below steps. (Alternatively run the file above to perform steps 1,2 and 3. `bash rust_parquet_shell.sh`):
 
 1. Install Rust and Cargo. The easiest way to get Cargo is to install the current stable release of Rust by using rustup. Installing Rust using rustup will also install cargo. For MacOS: 
 ```
