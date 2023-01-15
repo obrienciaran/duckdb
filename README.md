@@ -76,7 +76,7 @@ You will now see the page in the next screenshot. Here, you can point to the `.j
 
 ## Getting started: Adding data 💾
 
-You can run the shell script found [here](https://github.com/obrienciaran/duckdb/tree/main/creating_data) to generate the same dummy data used for the remainder of these steps. Open a terminal and use `cd` to navigate to your folder of choice, then run the Bash script.
+You can run the shell script found [here](https://github.com/obrienciaran/duckdb/tree/main/creating_data) to generate the same dummy data used for the remainder of these steps. Open a terminal and use `cd` to navigate to your folder of choice, then run the Bash script. The data will be in `.csv` format but can also be converted to `parquet`. 
 
 - Create a table in the main schema
 ```
