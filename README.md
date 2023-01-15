@@ -122,4 +122,4 @@ WHERE rnk = 1
 ### References 📚
 
 
-- Thank you to [Daniel Palma](https://medium.com/@danthelion/analyzing-bigger-files-locally-in-seconds-with-duckdb-and-datagrip-8753486a3da9) for the information on getting DuckDB connected to a JetBrains IDE, and the shell script for generating some initial dummy data.
+- Thank you to [Daniel Palma](https://medium.com/@danthelion/analyzing-bigger-files-locally-in-seconds-with-duckdb-and-datagrip-8753486a3da9) for the information on getting DuckDB connected to a JetBrains IDE.
