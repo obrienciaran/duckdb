@@ -8,7 +8,7 @@
 
 This is my personal repository for keeping code and instructions related to DuckDB and working with the modern data stack. 
 
-Here I am examining high speed data processing using in particular DuckDB, Rust, and PyPolars.
+Here I am examining high speed data processing using in particular DuckDB and PyPolars.
 
 ---
 # What is the purpose of this repository? 🤔
